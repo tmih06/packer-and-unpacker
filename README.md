@@ -15,9 +15,11 @@ packer.exe
 ```shell
 Path: "C:\packer-and-unpacker\test\example""
 ```
-4.**Now the packer.exe will generate the file shellcode.h which contain all the bytes code of each file in the selected folder, compile the `unpacker.cpp`:**__
+4.**Now the packer.exe will generate the file shellcode.h which contain all the bytes code of each file in the selected folder, compile the `unpacker.cpp`:**
+
+
 -For my example:
-[](https://github.com/tmih06/packer-and-unpacker/blob/main/images/screenshot.png)
+![](https://github.com/tmih06/packer-and-unpacker/blob/main/images/screenshot.png)
 ```shell
 g++ unpacker.cpp -o unpack -static
 ```

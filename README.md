@@ -24,6 +24,8 @@ Path: "C:\packer-and-unpacker\test\example""
 g++ unpacker.cpp -o unpack -static
 ```
 **Note:** shellcode.h and unpacker.cpp must be in the same folder while compiling
+
+
 5.**Now on the next run of unpacker.exe it will extract all the bytes code into each file then run the command has been specified (if have)**
 You can edit it [here](https://github.com/tmih06/packer-and-unpacker/blob/main/unpacker.cpp#L26)
 
